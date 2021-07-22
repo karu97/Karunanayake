@@ -1,4 +1,4 @@
-class multiplythreenumbers{
+ class multiplythreenumbers{
 	public int addNumbers(int a, int b, int c){
 		int multiply = a * b * c;
 		return multiply;
