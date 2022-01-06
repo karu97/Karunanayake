@@ -1,10 +1,10 @@
-class myself{
+class testA{
 	public void method01() {
 	System.out.println("I am Praveen");
 	}
 	public void method02() {
 	System.out.println ("I am live in Gampaha");
-	}
+	}testA
 	public void method03() {
 	System.out.println ("I have one brother");
 	}
@@ -16,16 +16,19 @@ class myself{
 	}
 
 public static void main (String [] args){
-	myself x = new myself();
+	testA x = new testA();
+	
+	testA y = new testA();
 	
 		x.method01();
 		x.method02();
 		x.method03();
 		x.method04();
 		x.method05();
-		
-		
+		y.method02();
+			
 	}
 }
+	
 		
 	
