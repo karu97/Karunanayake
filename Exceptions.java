@@ -9,7 +9,7 @@ public class Exceptions{
                 a[i]=i+1;                                       
             }                                                   
         }                                                       
-        catch(Exception e){                                     
+        catch(ArithmeticException e){                                     
                                                                 
             System.out.println("Division by zero is wrong");    
         }
